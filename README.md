@@ -20,5 +20,7 @@ docker run \
 	-v /host/incomplete:/incomplete \ 
 	-v /host/.config:/config \
     -e USERNAME=username \
-    -e PASSWORD=password
+    -e PASSWORD=password \
+    -e DEBUG=true \
+    bertuss/transmission
 ```
